@@ -1,0 +1,24 @@
+build/x86_64-qemu/src/os.d:/home/richard/os-workbench-2022/kernel/build/x86_64-qemu/./src/os.o: \
+build/x86_64-qemu/src/os.d: /home/richard/os-workbench-2022/kernel/src/os.c include/common.h \
+build/x86_64-qemu/src/os.d: /home/richard/os-workbench-2022/kernel/../abstract-machine/am/include/am.h \
+build/x86_64-qemu/src/os.d: /home/richard/os-workbench-2022/kernel/../abstract-machine/am/include/arch/x86_64-qemu.h \
+build/x86_64-qemu/src/os.d: /home/richard/os-workbench-2022/kernel/../abstract-machine/am/include/amdev.h \
+build/x86_64-qemu/src/os.d: /home/richard/os-workbench-2022/kernel/../abstract-machine/klib/include/klib.h \
+build/x86_64-qemu/src/os.d: /home/richard/os-workbench-2022/kernel/../abstract-machine/klib/include/klib-macros.h
+build/x86_64-qemu/src/pmm.d:/home/richard/os-workbench-2022/kernel/build/x86_64-qemu/./src/pmm.o: \
+build/x86_64-qemu/src/pmm.d: /home/richard/os-workbench-2022/kernel/src/pmm.c include/common.h \
+build/x86_64-qemu/src/pmm.d: /home/richard/os-workbench-2022/kernel/../abstract-machine/am/include/am.h \
+build/x86_64-qemu/src/pmm.d: /home/richard/os-workbench-2022/kernel/../abstract-machine/am/include/arch/x86_64-qemu.h \
+build/x86_64-qemu/src/pmm.d: /home/richard/os-workbench-2022/kernel/../abstract-machine/am/include/amdev.h \
+build/x86_64-qemu/src/pmm.d: /home/richard/os-workbench-2022/kernel/../abstract-machine/klib/include/klib.h \
+build/x86_64-qemu/src/pmm.d: /home/richard/os-workbench-2022/kernel/../abstract-machine/klib/include/klib-macros.h
+build/x86_64-qemu/framework/main.d:/home/richard/os-workbench-2022/kernel/build/x86_64-qemu/framework/main.o: \
+build/x86_64-qemu/framework/main.d: /home/richard/os-workbench-2022/kernel/framework/main.c \
+build/x86_64-qemu/framework/main.d: /home/richard/os-workbench-2022/kernel/../abstract-machine/am/include/am.h \
+build/x86_64-qemu/framework/main.d: /home/richard/os-workbench-2022/kernel/../abstract-machine/am/include/arch/x86_64-qemu.h \
+build/x86_64-qemu/framework/main.d: /home/richard/os-workbench-2022/kernel/../abstract-machine/am/include/amdev.h \
+build/x86_64-qemu/framework/main.d: /home/richard/os-workbench-2022/kernel/../abstract-machine/klib/include/klib.h
+匹配到二进制文件 build/kernel-x86_64-qemu
+匹配到二进制文件 build/kernel-x86_64-qemu.elf
+framework/main.c:  os->init();
+framework/main.c:  mpe_init(os->run);
